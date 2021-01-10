@@ -34,11 +34,11 @@ def login():
     username = driver.find_element_by_id('username')
     print("LOGGING IN..")
     # send_keys() to simulate key strokes
-    username.send_keys('katsiaryna.kulbitskaya@cibc.com')
+    username.send_keys('')
     # locate password form by_class_name
     password = driver.find_element_by_id('password')
     # send_keys() to simulate key strokes
-    password.send_keys('CIBC2020')
+    password.send_keys('')
     # locate submit button by_xpath
     log_in_button = driver.find_element_by_xpath('//*[@type="submit"]')
     print("LOGGING IN...")
